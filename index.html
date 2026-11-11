@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeautyLaunch</title>
+  <meta name="description" content="BeautyLaunch installs patient acquisition, follow-up and booking systems inside med spas across Canada and the US, then runs them until the calendar stays full.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Page loader -->
+<div class="page-loader" id="page-loader" aria-hidden="true">
+  <div class="loader-logo">Beauty<span>Launch</span></div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+
+<a class="skip" href="#services">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <a class="logo" href="#hero" aria-label="BeautyLaunch home">Beauty<span>Launch</span></a>
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="#services">Systems</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a href="#apply" class="btn btn-p hdr-cta desk">Book a Call</a>
+    <button class="m-tog" id="m-tog" aria-expanded="false" aria-controls="m-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="m-nav" id="m-nav">
+  <a href="#services">Systems</a>
+  <a href="#results">Results</a>
+  <a href="#process">Process</a>
+  <a href="#about">About</a>
+  <a href="#faq">FAQ</a>
+  <a href="#apply" class="btn btn-p">Book Your Free Strategy Call</a>
+</div>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-mesh" aria-hidden="true"><span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="hero-upper">
+      <div>
+        <div class="hero-badge"><span class="badge-dot"></span>Trusted by 50+ Aesthetic Clinics</div>
+        <h1 class="hero-h">We Don't Sell<br class="mo"> You Leads.<br>We Fill Your <em>Treatment Rooms.</em></h1>
+        <p class="hero-sub">BeautyLaunch installs patient acquisition campaigns, follow-up systems and booking engines directly inside med spas, then runs them until a full day sheet is a normal Tuesday.</p>
+        <div class="hero-ctas">
+          <a href="#apply" class="btn btn-p">Book Your Free Strategy Call <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a href="#results" class="btn btn-s">See Client Results</a>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="corner-mark cm-tl"></div><div class="corner-mark cm-br"></div>
+        <div class="hero-stat"><div class="hero-stat-n" data-count="50" data-suffix="+">50+</div><div class="hero-stat-l">Clinics Served</div></div>
+        <div class="hero-stat"><div class="hero-stat-n" data-count="4" data-suffix="x">4x</div><div class="hero-stat-l">Avg Revenue Growth</div></div>
+        <div class="hero-stat"><div class="hero-stat-n" data-count="10" data-suffix="x">10x</div><div class="hero-stat-l">Top Client ROAS</div></div>
+      </div>
+    </div>
+
+    <div class="hero-proof">
+      <div class="hero-proof-i"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Med Spa &amp; Aesthetics Only</div>
+      <div class="hero-proof-i"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Follow-Up in Minutes</div>
+      <div class="hero-proof-i"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Booked Patients, Not Clicks</div>
+      <div class="hero-proof-i"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Canada &amp; the US</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST MARQUEE ============ -->
+<!-- Swap the treatment names for client logos (.mq-logo > img) when they're available -->
+<section class="trust" aria-label="Treatments we market">
+  <div class="trust-top"><div class="trust-label">Built for the Treatments That Fill Your Book</div></div>
+  <div class="mq-wrap">
+    <div class="mq">
+      <div class="mq-item">Morpheus8</div><div class="mq-dot"></div>
+      <div class="mq-item">Injectables</div><div class="mq-dot"></div>
+      <div class="mq-item">Laser Hair Removal</div><div class="mq-dot"></div>
+      <div class="mq-item">Emsculpt</div><div class="mq-dot"></div>
+      <div class="mq-item">Skin Boosters</div><div class="mq-dot"></div>
+      <div class="mq-item">Body Contouring</div><div class="mq-dot"></div>
+      <div class="mq-item">PRP</div><div class="mq-dot"></div>
+      <div class="mq-item">IPL</div><div class="mq-dot"></div>
+      <div class="mq-item">Memberships</div><div class="mq-dot"></div>
+      <div class="mq-item" aria-hidden="true">Morpheus8</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Injectables</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Laser Hair Removal</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Emsculpt</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Skin Boosters</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Body Contouring</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">PRP</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">IPL</div><div class="mq-dot" aria-hidden="true"></div>
+      <div class="mq-item" aria-hidden="true">Memberships</div><div class="mq-dot" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="svc" id="services">
+  <div class="bg-glow pos-bl" aria-hidden="true"></div>
+  <div class="ctn">
+    <div class="svc-header rv">
+      <div class="sl"><span class="sl-line"></span><span class="sl-text">What We Install</span></div>
+      <h2 class="svc-h">Growth Infrastructure.<br>Not Agency Busywork.</h2>
+      <p class="svc-sub">Ads are one part of six. The rest is what turns an enquiry at 9 pm into a patient on the table Thursday morning, and keeps them coming back.</p>
+    </div>
+
+    <div class="svc-tabs rv-s" id="svc-tabs">
+      <div class="svc-nav" role="tablist" aria-label="Systems">
+        <button class="svc-nav-item active" role="tab" aria-selected="true" data-tab="0"><span class="svc-nav-num">01</span><span class="svc-nav-label">Patient Acquisition Campaigns</span></button>
+        <button class="svc-nav-item" role="tab" aria-selected="false" data-tab="1"><span class="svc-nav-num">02</span><span class="svc-nav-label">Speed-to-Lead Follow-Up</span></button>
+        <button class="svc-nav-item" role="tab" aria-selected="false" data-tab="2"><span class="svc-nav-num">03</span><span class="svc-nav-label">Booking &amp; No-Show Recovery</span></button>
+        <button class="svc-nav-item" role="tab" aria-selected="false" data-tab="3"><span class="svc-nav-num">04</span><span class="svc-nav-label">Offer Architecture &amp; Buying Events</span></button>
+        <button class="svc-nav-item" role="tab" aria-selected="false" data-tab="4"><span class="svc-nav-num">05</span><span class="svc-nav-label">Patient File Reactivation</span></button>
+        <button class="svc-nav-item" role="tab" aria-selected="false" data-tab="5"><span class="svc-nav-num">06</span><span class="svc-nav-label">Reviews &amp; Reputation</span></button>
+      </div>
+      <div class="svc-panel">
+        <div class="svc-content active" data-panel="0" role="tabpanel">
+          <div class="svc-content-num">01</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+          <div class="svc-content-title">Patient Acquisition Campaigns</div>
+          <div class="svc-content-desc">Meta and Google campaigns built around your treatment mix and your margins, not a "$9 per unit" bait offer that fills the room with the wrong patient. Engineered for people who book, show up and buy the package.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Treatment-specific creative and targeting for your exact menu</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Ad spend runs in accounts you own and can see</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Optimised for cost per booked patient, not cost per lead</div>
+          </div>
+        </div>
+        <div class="svc-content" data-panel="1" role="tabpanel">
+          <div class="svc-content-num">02</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-9-9"/><path d="M12 7v5l3 2"/><path d="M21 3v5h-5"/></svg></div>
+          <div class="svc-content-title">Speed-to-Lead Follow-Up</div>
+          <div class="svc-content-desc">Every enquiry gets a text within minutes, seven days a week. A real person picks up the conversation the moment it needs one, so nobody who messages at 9 pm waits until Monday.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>First reply in minutes, evenings and weekends included</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Treatment, timing and budget qualified before your desk is involved</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Handoff to a person the patient never notices</div>
+          </div>
+        </div>
+        <div class="svc-content" data-panel="2" role="tabpanel">
+          <div class="svc-content-num">03</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/></svg></div>
+          <div class="svc-content-title">Booking &amp; No-Show Recovery</div>
+          <div class="svc-content-desc">Confirmations, reminders, reschedules and waitlist fills so a booked slot stays booked and an open one doesn't stay open. Every empty slot is revenue you already paid to acquire.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Reminder sequences that cut no-shows</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Instant rebooking when someone cancels</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Waitlist texts that fill same-week gaps</div>
+          </div>
+        </div>
+        <div class="svc-content" data-panel="3" role="tabpanel">
+          <div class="svc-content-num">04</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v8H4v-8"/><path d="M2 7h20v5H2z"/><path d="M12 7v13"/><path d="M12 7c-2-3-6-3-6 0 0 2 6 0 6 0Zm0 0c2-3 6-3 6 0 0 2-6 0-6 0Z"/></svg></div>
+          <div class="svc-content-title">Offer Architecture &amp; Buying Events</div>
+          <div class="svc-content-desc">Dated, capacity-capped events like The Off-Season, our laser hair removal campaign that opens September 1 and closes October 31. Cash collected up front, and six to eight more visits bought with every patient.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Offers rebuilt from your published menu and margins</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Capped at what your rooms can actually deliver</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>One buying event per quarter, run for you</div>
+          </div>
+        </div>
+        <div class="svc-content" data-panel="4" role="tabpanel">
+          <div class="svc-content-num">05</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-7 7-7s7 3 7 7"/><path d="M19 8v6M16 11h6"/></svg></div>
+          <div class="svc-content-title">Patient File Reactivation</div>
+          <div class="svc-content-desc">Win-back sequences for the people who already trust you. The cheapest patient to book is the one who was on your table last year, and most clinics have hundreds of them sitting in the file.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Lapsed-patient sequences by treatment and timing</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Anniversary and seasonal reminders</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Usually live, and rebooking, before a dollar of ad spend</div>
+          </div>
+        </div>
+        <div class="svc-content" data-panel="5" role="tabpanel">
+          <div class="svc-content-num">06</div>
+          <div class="svc-content-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9Z"/></svg></div>
+          <div class="svc-content-title">Reviews &amp; Reputation</div>
+          <div class="svc-content-desc">Review requests timed to the treatment, not the invoice. Unhappy feedback routed to you before it's routed to Google, so your rating compounds the same way your calendar does.</div>
+          <div class="svc-points">
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Post-visit requests sent when results show</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Negative feedback intercepted privately</div>
+            <div class="svc-point"><span class="svc-point-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Reviews reused in ads and follow-up</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svc-accordion rv" id="svc-accordion"></div>
+  </div>
+</section>
+
+<!-- ============ WHY / PURPOSE-BUILT ============ -->
+<section class="diff" id="why">
+  <div class="bg-vignette" aria-hidden="true"></div>
+  <div class="bg-glow pos-tr" aria-hidden="true"></div>
+  <div class="ctn">
+    <div class="diff-header rv">
+      <div class="sl"><span class="sl-line"></span><span class="sl-text">Built for Aesthetics</span></div>
+      <h2>Purpose-Built for<br>Aesthetic Medicine.</h2>
+      <p>Most agencies run the same playbook for dentists, gyms and roofers. We only work inside med spas, so every campaign, script and offer has already been tested on a menu like yours.</p>
+    </div>
+    <div class="diff-grid rv-s">
+      <div class="diff-center-stat"><div class="diff-center-stat-n">100%</div><div class="diff-center-stat-l">Aesthetic</div></div>
+      <div class="diff-card rv rv-d1">
+        <div class="diff-card-top"><div class="diff-card-num">01</div><div class="diff-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg></div></div>
+        <div class="diff-card-title">Exclusively Med Spa &amp; Aesthetic</div>
+        <div class="diff-card-desc">No dentists, no gyms, no generalists. Every dollar of strategy is informed by the aesthetic patient journey, from first enquiry to the fifth treatment cycle.</div>
+        <div class="diff-card-stat"><div class="diff-card-stat-val">0</div><div class="diff-card-stat-label">Non-aesthetic<br>clients. Ever.</div></div>
+      </div>
+      <div class="diff-card rv rv-d2">
+        <div class="diff-card-top"><div class="diff-card-num">02</div><div class="diff-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg></div></div>
+        <div class="diff-card-title">Follow-Up in Minutes, Not Days</div>
+        <div class="diff-card-desc">The enquiry that arrives at 9 pm gets a reply at 9:03 pm. A person takes over the moment the conversation needs one. Speed books the consult; the person closes it.</div>
+        <div class="diff-card-stat"><div class="diff-card-stat-val">Minutes</div><div class="diff-card-stat-label">Average time<br>to first reply</div></div>
+      </div>
+      <div class="diff-card rv rv-d3">
+        <div class="diff-card-top"><div class="diff-card-num">03</div><div class="diff-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18"/><path d="M6 16V9M11 16V5M16 16v-7M21 16V3"/></svg></div></div>
+        <div class="diff-card-title">Measured in Booked Revenue</div>
+        <div class="diff-card-desc">Impressions and click-through rates do not pay rent. We report on booked consults, patients treated and revenue collected, in a dashboard you can open any day.</div>
+        <div class="diff-card-stat"><div class="diff-card-stat-val">$0</div><div class="diff-card-stat-label">Spent reporting<br>vanity metrics</div></div>
+      </div>
+      <div class="diff-card rv rv-d4">
+        <div class="diff-card-top"><div class="diff-card-num">04</div><div class="diff-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17 9 11l4 4 8-8"/><path d="M14 7h7v7"/></svg></div></div>
+        <div class="diff-card-title">Offers That Buy the Patient File</div>
+        <div class="diff-card-desc">The Off-Season, our capped laser hair removal event, collects cash up front and buys six to eight more visits with every patient. Each one is a chance to book the rest of your menu.</div>
+        <div class="diff-card-stat"><div class="diff-card-stat-val">6–8</div><div class="diff-card-stat-label">Visits bought per<br>Off-Season patient</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARISON ============ -->
+<section class="cmp">
+  <div class="ctn">
+    <div class="cmp-header rv">
+      <div class="sl"><span class="sl-line"></span><span class="sl-text">The Difference</span></div>
+      <h2 class="cmp-h">A Smarter, Simpler Solution.</h2>
+      <p class="cmp-sub">For owners tired of hearing <em>"we're optimising"</em>, but not ready to do it all themselves.</p>
+    </div>
+    <div class="cmp-grid rv-s">
+      <div class="cmp-col">
+        <div class="cmp-col-head"><div class="cmp-col-name">Other Agency</div></div>
+        <div class="cmp-row"><span class="cmp-row-label">Time to Launch</span><span class="cmp-row-val">3–6 weeks</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Who Answers at 9 pm</span><span class="cmp-row-val">Nobody</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Your Time Each Week</span><span class="cmp-row-val">A lot</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Knows Morpheus8 from Microneedling</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-n"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Reports On</span><span class="cmp-row-val">Clicks</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Improves Over Time</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-n"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Cost</span><span class="cmp-row-val">$$$$</span></div>
+      </div>
+      <div class="cmp-col cmp-col-hero">
+        <div class="cmp-col-head"><div class="cmp-badge"><span class="cmp-badge-dot"></span>Recommended</div><div class="cmp-col-name">BeautyLaunch</div></div>
+        <div class="cmp-row"><span class="cmp-row-label">Time to Launch</span><span class="cmp-row-val cmp-good">7–10 Days</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Who Answers at 9 pm</span><span class="cmp-row-val cmp-good">We do, in minutes</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Your Time Each Week</span><span class="cmp-row-val cmp-good">Under an hour</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Knows Morpheus8 from Microneedling</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-y"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Reports On</span><span class="cmp-row-val cmp-good">Booked patients</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Improves Over Time</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-y"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Cost</span><span class="cmp-row-val cmp-good">$$$</span></div>
+      </div>
+      <div class="cmp-col">
+        <div class="cmp-col-head"><div class="cmp-col-name">Doing It Yourself</div></div>
+        <div class="cmp-row"><span class="cmp-row-label">Time to Launch</span><span class="cmp-row-val">1 month+</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Who Answers at 9 pm</span><span class="cmp-row-val">You</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Your Time Each Week</span><span class="cmp-row-val">10+ hours</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Knows Morpheus8 from Microneedling</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-y"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Reports On</span><span class="cmp-row-val">Ads Manager</span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Improves Over Time</span><span class="cmp-row-val"><span class="cmp-chk cmp-chk-n"><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></span></span></div>
+        <div class="cmp-row"><span class="cmp-row-label">Cost</span><span class="cmp-row-val cmp-good">$</span></div>
+      </div>
+    </div>
+    <div class="cmp-cta rv"><a href="#apply" class="btn btn-p">Book Your Free Strategy Call <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="proc" id="process">
+  <div class="bg-glow pos-c" aria-hidden="true"></div>
+  <div class="proc-header rv">
+    <div class="sl"><span class="sl-line"></span><span class="sl-text">How It Works</span></div>
+    <h2 class="proc-h">From Diagnostic to a Full Book<br>in Four Phases.</h2>
+    <p class="proc-sub">Follow-up and booking go in before a dollar of ad spend, so the first campaign lands on a clinic that's ready to catch it.</p>
+  </div>
+  <div class="proc-strip" id="proc-strip">
+    <div class="proc-band rv rv-d1">
+      <div class="proc-band-ghost">01</div>
+      <div class="proc-band-num"><span>01</span></div>
+      <div class="proc-band-title">Growth Diagnostic</div>
+      <div class="proc-band-desc">Week 1. We audit your acquisition, follow-up, show rate and treatment economics. You get the written breakdown whether or not you hire us.</div>
+      <div class="proc-band-arrow"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="proc-band rv rv-d2">
+      <div class="proc-band-ghost">02</div>
+      <div class="proc-band-num"><span>02</span></div>
+      <div class="proc-band-title">System Build</div>
+      <div class="proc-band-desc">Weeks 2–3. Campaigns, follow-up, booking flows and the first offer, built around your menu, your rooms and your margins.</div>
+      <div class="proc-band-arrow"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="proc-band rv rv-d3">
+      <div class="proc-band-ghost">03</div>
+      <div class="proc-band-num"><span>03</span></div>
+      <div class="proc-band-title">Launch &amp; Activate</div>
+      <div class="proc-band-desc">Week 4. Ads go live, enquiries are answered in minutes, and consults start landing on the day sheet.</div>
+      <div class="proc-band-arrow"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></div>
+    </div>
+    <div class="proc-band rv rv-d4">
+      <div class="proc-band-ghost">04</div>
+      <div class="proc-band-num"><span>04</span></div>
+      <div class="proc-band-title">Compound &amp; Scale</div>
+      <div class="proc-band-desc">Month 2 onward. Weekly optimisation, a buying event each quarter, and reactivation of the patient file you already own.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS ============ -->
+<!-- Clinic names, offers and devices below come from the Offer Hub client list. Confirm each clinic is happy to be named before launch. -->
+<section class="res" id="results">
+  <div class="res-sweep" aria-hidden="true"></div>
+  <div class="bg-glow pos-tr" aria-hidden="true"></div>
+  <div class="ctn">
+    <div class="res-header rv">
+      <div class="sl"><span class="sl-line"></span><span class="sl-text">Client Outcomes</span></div>
+      <h2>Real Clinics. Real Devices.<br>Booked Every Month.</h2>
+      <p>We book a minimum of 40 to 50 appointments a month for the clinics we work with. These are the clinics, the offers we run for them and the devices behind each one.</p>
+    </div>
+    <div class="cs-grid rv-s">
+      <article class="cs-card">
+        <div class="cs-card-head">
+          <div class="cs-card-type">InMode EvolveX &amp; Forma RF</div>
+          <div class="cs-card-clinic">Studio Nude Skin &amp; Body</div>
+          <div class="cs-card-owner">Yorkville, Toronto, ON</div>
+          <div class="cs-card-hero"><span class="cs-card-hero-val">40–50+</span><span class="cs-card-hero-label">Appointments booked<br>every month</span></div>
+        </div>
+        <div class="cs-card-body">
+          <div class="cs-card-desc">Body and face offers run side by side. The Slim &amp; Sculpt Transformation fills the EvolveX room, and the Forever Young Facelift does the same for Forma RF, each with a consultation and treatment plan built in.</div>
+          <div class="cs-card-metrics"><div class="cs-card-met"><strong>EvolveX</strong> Body Contouring</div><div class="cs-card-met"><strong>Forma RF</strong> Skin Tightening</div><div class="cs-card-met"><strong>EvoPen</strong> Microneedling</div></div>
+        </div>
+      </article>
+      <article class="cs-card">
+        <div class="cs-card-head">
+          <div class="cs-card-type">Sciton BBL HERO &amp; SkinTyte</div>
+          <div class="cs-card-clinic">Spruce Aesthetics + Infusion Bar</div>
+          <div class="cs-card-owner">Holladay, UT</div>
+          <div class="cs-card-hero"><span class="cs-card-hero-val">40–50+</span><span class="cs-card-hero-label">Appointments booked<br>every month</span></div>
+        </div>
+        <div class="cs-card-body">
+          <div class="cs-card-desc">Laser leads the calendar. Bye Bye Baggy Eyes runs on the Sciton BBL HERO and the Forever Young Facelift on SkinTyte, alongside a HydraFacial offer and an injectables package for new patients.</div>
+          <div class="cs-card-metrics"><div class="cs-card-met"><strong>BBL HERO</strong> Under-Eye</div><div class="cs-card-met"><strong>SkinTyte</strong> RF Tightening</div><div class="cs-card-met"><strong>HydraFacial</strong> Signature</div></div>
+        </div>
+      </article>
+      <article class="cs-card">
+        <div class="cs-card-head">
+          <div class="cs-card-type">TriLipo &amp; OxyGeneo</div>
+          <div class="cs-card-clinic">LeVerve MediSpa</div>
+          <div class="cs-card-owner">Eastern Passage, NS</div>
+          <div class="cs-card-hero"><span class="cs-card-hero-val">40–50+</span><span class="cs-card-hero-label">Appointments booked<br>every month</span></div>
+        </div>
+        <div class="cs-card-body">
+          <div class="cs-card-desc">One device, three offers. The Forever Young Facelift, Mommy Tummy Rescue and Perfect Peach Butt Lift all run on TriLipo, with an OxyGeneo facial package and TriPollar RF as the skin offer.</div>
+          <div class="cs-card-metrics"><div class="cs-card-met"><strong>TriLipo</strong> Face &amp; Body</div><div class="cs-card-met"><strong>OxyGeneo</strong> 3-in-1 Facial</div><div class="cs-card-met"><strong>Dermalux</strong> LED</div></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="cc-carousel rv" id="cc-carousel">
+      <div class="cc-carousel-header"><div class="cc-carousel-label">The Clinics We Book For</div></div>
+      <div class="cc-track-wrap">
+        <div class="cc-track" id="cc-track">
+          <div class="cc"><div class="cc-inner"><div class="cc-name">Reston Aesthetics</div><div class="cc-clinic">Centreville, VA</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Bye Bye Baggy Eyes</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">MonaLisa CO2 Laser, TempSure Envi RF, HydraFacial</div></div></div>
+          <div class="cc"><div class="cc-inner"><div class="cc-name">Beautifully Bare Esthetics</div><div class="cc-clinic">Estero, FL</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Face &amp; Neck Rescue</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">Microneedling with Salmon PDRN, DiamondGlow, HydraFacial</div></div></div>
+          <div class="cc"><div class="cc-inner"><div class="cc-name">Krystel MediSpa &amp; Salon</div><div class="cc-clinic">Dieppe, NB</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Forever Young Facelift</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">TriLipo, Dermalux LED, InMode 3D Skin Analysis</div></div></div>
+          <div class="cc"><div class="cc-inner"><div class="cc-name">Studio Nude Skin &amp; Body</div><div class="cc-clinic">Toronto, ON</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Slim &amp; Sculpt Transformation</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">InMode EvolveX, Forma RF, EvoPen Microneedling</div></div></div>
+          <div class="cc"><div class="cc-inner"><div class="cc-name">Spruce Aesthetics + Infusion Bar</div><div class="cc-clinic">Holladay, UT</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Bye Bye Baggy Eyes</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">Sciton BBL HERO, SkinTyte, HydraFacial</div></div></div>
+          <div class="cc"><div class="cc-inner"><div class="cc-name">LeVerve MediSpa</div><div class="cc-clinic">Eastern Passage, NS</div><div class="cc-compare"><div class="cc-block before"><div class="cc-block-label">Lead Offer</div><div class="cc-block-val sm">Forever Young Facelift</div></div><div class="cc-block after"><div class="cc-block-label">Booked Monthly</div><div class="cc-block-val">40–50+</div></div></div><div class="cc-tx">TriLipo, OxyGeneo, TriPollar RF, Dermalux LED</div></div></div>
+        </div>
+      </div>
+      <div class="cc-nav">
+        <button class="cc-nav-btn" id="cc-prev" aria-label="Previous results"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <button class="cc-nav-btn" id="cc-next" aria-label="Next results"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+    <div class="res-viewall rv"><a href="#apply" class="btn btn-s btn-viewall">Get Results Like These <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT / PROOF ============ -->
+<section class="proof" id="about">
+  <div class="bg-vignette" aria-hidden="true"></div>
+  <div class="bg-glow pos-bl" aria-hidden="true"></div>
+  <div class="ctn">
+    <div class="proof-header rv">
+      <div class="sl"><span class="sl-line"></span><span class="sl-text">Who We Are</span></div>
+      <h2>Built by an Operator.<br>Run by a Small Team on Purpose.</h2>
+      <p>BeautyLaunch is the med spa division of Syndicate Media Group, based in Nova Scotia and working with clinics across Canada and the United States.</p>
+    </div>
+    <div class="proof-founder rv-s">
+      <!-- Replace with the founder's photo -->
+      <div class="proof-founder-img"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1200&q=70&fm=jpg" alt="" loading="lazy"></div>
+      <div class="proof-founder-body">
+        <div class="proof-founder-role"><span class="role-dot"></span>Founder</div>
+        <div class="proof-founder-name">Joey, Founder</div>
+        <div class="proof-founder-title">Growth Strategy &amp; Offer Architecture</div>
+        <div class="proof-founder-desc">Joey built BeautyLaunch after watching clinics pay agencies for clicks while their treatment rooms sat empty. The model is simple: install the follow-up and booking layer first, run campaigns into it, and report only on what landed on the day sheet. The team stays small on purpose, and takes a limited number of clinics per market so we're never running your ads against the clinic down the street.</div>
+        <div class="proof-founder-specs">
+          <div class="proof-founder-spec"><span class="proof-founder-spec-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Author of The Off-Season, the capped laser hair removal buying event run each fall</div>
+          <div class="proof-founder-spec"><span class="proof-founder-spec-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Built the follow-up, reactivation and booking playbooks used on every account</div>
+          <div class="proof-founder-spec"><span class="proof-founder-spec-dot"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>Works with physician-led and nurse-led clinics across Canada and the US</div>
+        </div>
+      </div>
+    </div>
+    <div class="proof-creds-strip rv">
+      <div class="proof-cred-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><strong>100%</strong> Aesthetics-Only</div>
+      <div class="proof-cred-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Canada &amp; the US</div>
+      <div class="proof-cred-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Based in Nova Scotia</div>
+      <div class="proof-cred-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Operators, Not Generalists</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="ctn">
+    <div class="faq-grid">
+      <div class="faq-side rv-l">
+        <div class="sl"><span class="sl-line"></span><span class="sl-text">Frequently Asked</span></div>
+        <h2>Questions Clinic Owners Ask Before the Call.</h2>
+        <p>If you're evaluating growth partners, these are the questions worth asking every one of them.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item open rv rv-d1">
+          <button class="faq-q" aria-expanded="true">How is this different from the last agency?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Most agencies run ads and send you the leads. We build the follow-up and booking layer first, run campaigns into it, and report on booked patients and revenue. The systems live inside your clinic's accounts, so they're yours.</p></div>
+        </div>
+        <div class="faq-item rv rv-d2">
+          <button class="faq-q" aria-expanded="false">What does my front desk have to do?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Answer the phone for the people who want to talk, and treat the patients. Enquiries, reminders, reschedules and review requests are handled by the systems we install. Expect under an hour a week from you after onboarding.</p></div>
+        </div>
+        <div class="faq-item rv rv-d3">
+          <button class="faq-q" aria-expanded="false">Which treatments does this work for?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Injectables, Morpheus8 and RF microneedling, laser hair removal, Emsculpt and body contouring, skin boosters, IPL, PRP, peels and memberships. Each campaign is built around your menu and margins, not a template.</p></div>
+        </div>
+        <div class="faq-item rv rv-d4">
+          <button class="faq-q" aria-expanded="false">How fast will I see booked patients?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Follow-up goes live in the first two weeks and usually rebooks patients from your existing file before ads start. Most clinics see consults from new campaigns within two weeks of launch. We share benchmarks for your market on the call.</p></div>
+        </div>
+        <div class="faq-item rv rv-d5">
+          <button class="faq-q" aria-expanded="false">What does it cost?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>A monthly retainer plus ad spend you control in your own accounts. We quote after the diagnostic because it depends on your rooms, your market and your menu. There is no long contract.</p></div>
+        </div>
+        <div class="faq-item rv rv-d6">
+          <button class="faq-q" aria-expanded="false">Do you work with clinics that just opened?<span class="faq-plus"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span></button>
+          <div class="faq-a"><p>Yes, if you have a treatment menu, a provider and a room. New clinics start with the diagnostic and a first campaign sized to what you can actually treat.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA + APPLY ============ -->
+<section class="fcta" id="apply">
+  <div class="bg-vignette" aria-hidden="true"></div>
+  <div class="orb orb-bg" aria-hidden="true"></div>
+  <div class="ctn fcta-c rv">
+    <div class="sl"><span class="sl-line"></span><span class="sl-text">Your Next Step</span></div>
+    <h2>Your Clinic Deserves a Calendar<br>That <em>Stays Full.</em></h2>
+    <p>Book a strategy call. We'll diagnose how patients find you, what happens after they enquire, and where the empty slots are coming from. You leave with the written diagnostic either way.</p>
+
+    <form class="apply-form glass" id="book-form" action="#" method="post" novalidate>
+      <div class="apply-row">
+        <div class="apply-field"><label for="f-name">Your name</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="apply-field"><label for="f-clinic">Clinic</label><input id="f-clinic" name="clinic" type="text" autocomplete="organization" required></div>
+      </div>
+      <div class="apply-row">
+        <div class="apply-field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="apply-field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      </div>
+      <div class="apply-row">
+        <div class="apply-field"><label for="f-rev">Monthly revenue, roughly</label>
+          <select id="f-rev" name="revenue">
+            <option value="">Choose one</option>
+            <option>Under $25K</option>
+            <option>$25K – $50K</option>
+            <option>$50K – $100K</option>
+            <option>$100K – $250K</option>
+            <option>Over $250K</option>
+          </select>
+        </div>
+        <div class="apply-field"><label for="f-note">What's working and what isn't</label><input id="f-note" name="note" type="text"></div>
+      </div>
+      <button class="btn btn-p apply-submit" type="submit">Book Your Free Strategy Call <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      <p class="apply-fine" id="form-fine">We reply within one business day. Your details stay with us.</p>
+    </form>
+
+    <div class="fcta-trust">
+      <div class="fcta-ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Free &amp; No Obligation</div>
+      <div class="fcta-ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Written Growth Diagnostic</div>
+      <div class="fcta-ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Limited Clinics per Market</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS MARQUEE ============ -->
+<!-- PLACEHOLDER CONTENT: replace with real Google reviews before launch -->
+<section class="greviews" aria-label="Client reviews">
+  <div class="ctn">
+    <div class="greviews-header rv">
+      <div class="greviews-stars" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.7 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.7 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.7 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.7 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3 6.6 7 .8-5.2 4.8 1.4 7L12 17.7 5.8 21.2l1.4-7L2 9.4l7-.8Z"/></svg></div>
+      <h2><span>Results</span> That Speak for Themselves</h2>
+      <p>What clinic owners say after the first quarter.</p>
+    </div>
+  </div>
+  <div class="grev-row">
+    <div class="grev-track scroll-left" id="grev-1">
+      <div class="grev-card"><div class="grev-card-title">We stopped losing the night-time enquiries</div><div class="grev-card-body">The people who messaged us at 9 pm used to get an answer Monday. Now they're booked before I've seen the notification. That alone paid for it.</div><div class="grev-card-author">Owner, injectables clinic</div></div>
+      <div class="grev-card"><div class="grev-card-title">Laser is a cash-up-front business now</div><div class="grev-card-body">The Off-Season sold out in week six. It's the first time laser hasn't been a coupon for us, and every one of those patients is on the schedule until spring.</div><div class="grev-card-author">Clinic director, laser &amp; body</div></div>
+      <div class="grev-card"><div class="grev-card-title">Patients show up knowing what they want</div><div class="grev-card-body">Consults used to be education sessions. Now people arrive knowing the treatment, the price and the package. Half the selling is done before they walk in.</div><div class="grev-card-author">Medical director</div></div>
+      <div class="grev-card"><div class="grev-card-title">Reports I can actually read</div><div class="grev-card-body">No more impressions and CPMs. I get booked consults, show rate and revenue, and I can see the ad account myself. That's what I wanted from the last two agencies.</div><div class="grev-card-author">Owner, med spa</div></div>
+    </div>
+  </div>
+  <div class="grev-row">
+    <div class="grev-track scroll-right" id="grev-2">
+      <div class="grev-card"><div class="grev-card-title">Rebooked lapsed patients before ads started</div><div class="grev-card-body">The reactivation texts went out in week two and filled the next fortnight from our own patient file. The campaigns launched into a clinic that was already busy.</div><div class="grev-card-author">Owner, nurse-led clinic</div></div>
+      <div class="grev-card"><div class="grev-card-title">Small team, fast answers</div><div class="grev-card-body">I text Joey and get a reply the same day. Changes to an offer go live the same week. It's the opposite of the ticket queue we had before.</div><div class="grev-card-author">Clinic manager</div></div>
+      <div class="grev-card"><div class="grev-card-title">Fewer no-shows than we've ever had</div><div class="grev-card-body">The reminder and waitlist system has cut our no-shows in half and fills the gaps when someone cancels. The room is used, which is the whole point.</div><div class="grev-card-author">Front desk lead</div></div>
+      <div class="grev-card"><div class="grev-card-title">They actually know the treatments</div><div class="grev-card-body">No explaining what Morpheus8 is or why we don't discount toxin. The ads and the follow-up scripts were right the first time.</div><div class="grev-card-author">Owner, physician aesthetics</div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="ctn-w">
+    <div class="ft-top">
+      <div>
+        <a class="logo" href="#hero">Beauty<span>Launch</span></a>
+        <p class="ft-tagline">The patient acquisition and growth infrastructure behind med spas across Canada and the US. A Syndicate Media Group company.</p>
+      </div>
+      <div>
+        <div class="ft-ct">Company</div>
+        <ul class="ft-links"><li><a href="#services">Systems</a></li><li><a href="#results">Results</a></li><li><a href="#about">About</a></li><li><a href="#apply">Contact</a></li></ul>
+      </div>
+      <div>
+        <div class="ft-ct">Resources</div>
+        <ul class="ft-links"><li><a href="#results">Case Studies</a></li><li><a href="#faq">FAQ</a></li><li><a href="#services">The Off-Season</a></li></ul>
+      </div>
+      <div>
+        <div class="ft-ct">Connect</div>
+        <ul class="ft-links"><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">YouTube</a></li></ul>
+      </div>
+    </div>
+    <div class="ft-bot">
+      <div class="ft-copy">© 2026 BeautyLaunch · Syndicate Media Group. All rights reserved.</div>
+      <div class="ft-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
