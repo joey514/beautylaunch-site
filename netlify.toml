@@ -1,0 +1,11 @@
+# Plain HTML site: nothing to build, publish the repo root.
+[build]
+  publish = "."
+
+# Basic security headers on every response.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
